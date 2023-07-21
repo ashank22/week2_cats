@@ -11,8 +11,6 @@ function Api(){
   } catch (error) {
     console.log(error);
   }
-
-  console.log(data2);
 }
 function getImage(){
   try {
@@ -24,11 +22,9 @@ function getImage(){
   } catch (error) {
     console.log(error);
   }
-  console.log(data1);
   
 }
 var s='https://cataas.com'+data1.url;
-alert(s);
   return(
     <header>
     <div className="div">
